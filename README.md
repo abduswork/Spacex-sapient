@@ -8,7 +8,7 @@
 ## Overview
 Find and explore all of the SpaceX launches to date, including mission details, mission patch, and rocket types.
 
-<p align="center"><img width=95% src="https://drive.google.com/file/d/1O85sbc7UKnt5dNKq5M6WsrkzWouhd7ud/view?usp=sharing"></p>
+<p align="center"><img width=95% src="https://lh6.googleusercontent.com/V89XOZPCr1ltFinowOo_dg4SPxHBOVbTeFmlqvCtELbziviR7-ucSDSvz2IlaeqH278N48jrNUAW1tu8LMrP=w2880-h1370-rw"></p>
 
 ## Fetch request
 This app populates state with data from the SpaceX API through this fetch request in App.js
