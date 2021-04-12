@@ -43,23 +43,10 @@ After installing dependencies, run a SpaceX-sapient local server. From the app d
 ```javascript
 npm start
 ```
-
 <br>
 
-## Search
-Using the 'Search Missions' bar, type a name to search by mission name.
-<p align="center"><img width=95% src="https://drive.google.com/uc?id=1M2n8N8uxu58JvCoso3pKxfg4-rr87XD9"></p>
-
-<br>
-
-## Mission Details
-Click on the mission patch to display launch details.
-<p align="center"><img width=95% src="https://drive.google.com/uc?id=1RSgLJRbI6IRsOiaf_wrE4tNMzG7h13B4"></p>
-
-<br>
-
-## Sort Launch and Land successful missions
-Filter out unsuccessful missions with the switch under the search bar.
+## Filter Land successful missions
+Filter out Land successful missions.
 <p align="center"><img width=95% src="https://lh4.googleusercontent.com/0nNaYHP6KLfCBYa7Wiu_KPkzhLibBke5OYDA8TYhDrGE2ACFhT8X0mY-tqqcmM-GkEJAVPW_KR8Svucl_zJb=w2880-h862-rw"></p>
 
 The below function handles this filter.
@@ -80,8 +67,8 @@ The below function handles this filter.
 
 <br>
 
-## Filter Land successful missions
-Filter out Land successful missions.
+## Filter Land and Launch successful missions
+Filter out Land and Launch successful missions.
 <p align="center"><img width=95% src="https://lh3.googleusercontent.com/88rya4bCGclPsG2VAUyqoLC3iQ3Dk7Yw_NB8j5A-tF6l21IpJHaeuyA752cb8gktQ98EYuMfIh1TCrJpaSAM=w2880-h1370-rw"></p>
 
 The below function handles this filter.
@@ -99,6 +86,18 @@ The below function handles this filter.
     });
   }
 ```
+
+<br>
+
+## Search
+Using the 'Search Missions' bar, type a name to search by mission name.
+<p align="center"><img width=95% src="https://drive.google.com/uc?id=1M2n8N8uxu58JvCoso3pKxfg4-rr87XD9"></p>
+
+<br>
+
+## Mission Details
+Click on the mission patch to display launch details.
+<p align="center"><img width=95% src="https://drive.google.com/uc?id=1RSgLJRbI6IRsOiaf_wrE4tNMzG7h13B4"></p>
 
 <br>
 
