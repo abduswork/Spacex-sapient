@@ -29,13 +29,9 @@ componentDidMount() {
 <br>
 
 ## Install
-This app requires React and Semantic ui with Semantic ui React.  
+This app requires React and NPM Pacakegs React.  
 
 <br>
-
-https://semantic-ui.com/introduction/getting-started.html  
-
-https://react.semantic-ui.com/introduction  
 
 https://www.npmjs.com/package/react  
 
@@ -43,7 +39,7 @@ https://www.npmjs.com/package/react-dom
 
 <br>
 
-After installing dependencies, run a SpaceXplorer local server. From the app directory...
+After installing dependencies, run a SpaceX-sapient local server. From the app directory...
 ```javascript
 npm start
 ```
@@ -87,7 +83,7 @@ filteredMissions = () => {
 ## Acknowledgements
 SpaceX open and free API  
 
-https://api.spacexdata.com/v2/launches/latest
+https://api.spacexdata.com/v3/launches?limit=100
 
 <br>
 
