@@ -60,7 +60,7 @@ Click on the mission patch to display launch details.
 
 ## Sort Launch and Land successful missions
 Filter out unsuccessful missions with the switch under the search bar.
-<p align="center"><img width=95% src="https://lh3.googleusercontent.com/88rya4bCGclPsG2VAUyqoLC3iQ3Dk7Yw_NB8j5A-tF6l21IpJHaeuyA752cb8gktQ98EYuMfIh1TCrJpaSAM=w2880-h1370-rw"></p>
+<p align="center"><img width=95% src="https://lh4.googleusercontent.com/0nNaYHP6KLfCBYa7Wiu_KPkzhLibBke5OYDA8TYhDrGE2ACFhT8X0mY-tqqcmM-GkEJAVPW_KR8Svucl_zJb=w2880-h862-rw"></p>
 
 The below function handles this filter.
 ```javascript
@@ -82,7 +82,7 @@ The below function handles this filter.
 
 ## Filter Land successful missions
 Filter out Land successful missions.
-<p align="center"><img width=95% src="https://lh4.googleusercontent.com/0nNaYHP6KLfCBYa7Wiu_KPkzhLibBke5OYDA8TYhDrGE2ACFhT8X0mY-tqqcmM-GkEJAVPW_KR8Svucl_zJb=w2880-h862-rw"></p>
+<p align="center"><img width=95% src="https://lh3.googleusercontent.com/88rya4bCGclPsG2VAUyqoLC3iQ3Dk7Yw_NB8j5A-tF6l21IpJHaeuyA752cb8gktQ98EYuMfIh1TCrJpaSAM=w2880-h1370-rw"></p>
 
 The below function handles this filter.
 ```javascript
