@@ -8,7 +8,7 @@
 ## Overview
 Find and explore all of the SpaceX launches to date, including mission details, mission patch, and rocket types.
 
-<p align="center"><img width=95% src="https://drive.google.com/uc?id=1ddnFetNVPWQakXL2G5zqcr3aI_Vlo3_P"></p>
+<p align="center"><img width=95% src="https://drive.google.com/file/d/1O85sbc7UKnt5dNKq5M6WsrkzWouhd7ud/view?usp=sharing"></p>
 
 ## Fetch request
 This app populates state with data from the SpaceX API through this fetch request in App.js
@@ -58,17 +58,46 @@ Click on the mission patch to display launch details.
 
 <br>
 
-## Sort successful missions
+## Sort Launch and Land successful missions
 Filter out unsuccessful missions with the switch under the search bar.
-<p align="center"><img width=95% src="https://drive.google.com/uc?id=1yXRUhKSl2KC6tXS6IFnR-2PC1dJFgUg6"></p>
+<p align="center"><img width=95% src="https://drive.google.com/file/d/1wPAz3RP32cKPfoy4bCRiYQFfQE_XkoQw/view?usp=sharing"></p>
 
 The below function handles this filter.
 ```javascript
-filteredMissions = () => {
-  return this.state.filteredCustomers.filter((l) => this.state.filteredRockets.includes(l)).filter((launch) =>
-      (!this.state.successfulOnly || this.state.successfulOnly && launch.launch_success))
-      .filter((launch) => launch.mission_name.toLowerCase().includes(this.state.query.toLowerCase()))
+  handleCheckForLandings = () => {
+    fetch('https://api.spacexdata.com/v3/launches?limit=100&land_success=true&launch_success=true')
+    .then(x => x.json())
+    .then((landData) => {
+      this.setState({
+        launches : landData,
+        filteredCustomers: landData,
+        filteredRockets: landData,
+        successfulAndLand: !this.state.successfulAndLand,
+        });
+    });
 }
+```
+
+<br>
+
+## Filter Land successful missions
+Filter out Land successful missions.
+<p align="center"><img width=95% src="https://drive.google.com/file/d/1L-FPdBCcLj8zPRVY0vM0gG6IYY8q_6qj/view?usp=sharing"></p>
+
+The below function handles this filter.
+```javascript
+  handleCheck = () => {
+    fetch('https://api.spacexdata.com/v3/launches?limit=100&land_success=true')
+    .then(x => x.json())
+    .then((landData) => {
+      this.setState({
+        launches : landData,
+        filteredCustomers: landData,
+        filteredRockets: landData,
+        successfulOnly: !this.state.successfulOnly
+      });
+    });
+  }
 ```
 
 <br>
