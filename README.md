@@ -1,4 +1,4 @@
-<h2 align="center">SpaceXplorer</h2>
+<h2 align="center">SpaceX Sapient Project</h2>
 
 // Abdus Samad //
 
@@ -55,13 +55,6 @@ Using the 'Search Missions' bar, type a name to search by mission name.
 ## Mission Details
 Click on the mission patch to display launch details.
 <p align="center"><img width=95% src="https://drive.google.com/uc?id=1RSgLJRbI6IRsOiaf_wrE4tNMzG7h13B4"></p>
-
-<br>
-
-## Filter by customer
-Filter by customer with through the dropdown in the select menu.
-<p align="center"><img width=95% src="https://drive.google.com/uc?id=1eyEsBBjXZ0mKShJ165NUf7gxbLKUA9su"></p>
-
 
 <br>
 
